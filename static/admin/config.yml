@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Keywords', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'profile'
+    label: 'Profile'
+    folder: 'content/profile'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Date of Birth', name: 'dateofbirth', widget: 'datetime' }
+      - { label: "Picture", name: "picture", widget: "image", choose_url: true, default: "/uploads/profile_image.png", multiple: false}
+      - { label: 'Introduction', name: 'introduction', widget: 'string' }
+      - { label: 'Information', name: 'body', widget: 'markdown' }
+
+  - name: 'code-snippet'
+    label: 'Code snippet'
+    folder: 'content/code-snippet'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Code', name: 'code', widget: 'code' }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
+
+      
