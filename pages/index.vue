@@ -22,10 +22,11 @@
   </v-main>
 </template>
 <style scoped>
-
+.container {
+  padding-top: 0px !important;
+}
 </style>
 <script>
-
 import cnavigation from '../components/Navigation.vue'
 import cheader from '../components/Header.vue'
 import cfooter from '../components/Footer.vue'

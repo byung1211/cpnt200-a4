@@ -24,6 +24,11 @@
   </v-container>
 </v-main>
 </template>
+<style scoped>
+.container {
+  padding-top: 0px !important;
+}
+</style>
 <script>
 export default {
 
