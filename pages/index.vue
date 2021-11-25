@@ -6,7 +6,7 @@
 
     <section class="flex flex-col mx-10">
       <div class="text-center mt-8 mb-2">
-        <h1 class="text-2xl">Hello, I am Alex, How are you doing?</h1>
+        <h1 v-text="pageInfo.geeting" class="text-2xl"></h1>
       </div>
       <div class="text-center my-4 mx-auto">
         <nuxt-img :src="profile.picture" :alt="profile.name" sizes="sm:100vw md:50vw lg:600px" />
@@ -42,6 +42,7 @@ export default {
       // Custom page data comes here.
       pageInfo: {
         name: 'home',
+        geeting: 'Hello, I am Alex, How are you doing?',
       }
     }
   },
