@@ -52,9 +52,7 @@ export default {
     }
   },
   methods: {
-    onLoad() {
-      alert('test');
-    }
+    
   }
 }
 </script>
