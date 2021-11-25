@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'cpnt200-a3&a4',
+    title: 'cpnt200-a4',
     htmlAttrs: {
       lang: 'en'
     },
