@@ -1,9 +1,9 @@
-# Title: CPNT 200 - Assignment 3 - JAMstack Setup
+# Title: CPNT 200 - Assignment 4 - Vue Components and Directives
 ### Author: Byung Uk An
 ### Links to:
   - **Github Repo:** https://github.com/byung1211/cpnt200-a3
-  - **Netlify Webpage:** https://determined-cori-6318cd.netlify.app/
-  - **Netlify Webpage for Admin:** https://determined-cori-6318cd.netlify.app/admin
+  - **Netlify Webpage:** https://friendly-golick-f032d6.netlify.app/
+  - **Netlify Webpage for Admin:** https://friendly-golick-f032d6.netlify.app/admin
   
 ### Attributions
 
@@ -11,6 +11,9 @@
 - 
 
 ### Code Review
+
+- 2021.11.25
+  For assignment 5, I have used v-html in Footer and v-text in some index.vue files for each menu. Also, to show you the use of scoped style, I put the style in every vue files and you will see custom.css in the folder /assets/css for global use.
 
 - 2021.11.24
 
