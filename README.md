@@ -8,7 +8,7 @@
 ### Attributions
 
 - **Tom cuise image** from https://www.goldenglobes.com/person/tom-cruise
-- 
+
 
 ### Code Review
 
