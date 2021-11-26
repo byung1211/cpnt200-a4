@@ -1,7 +1,7 @@
 # Title: CPNT 200 - Assignment 4 - Vue Components and Directives
 ### Author: Byung Uk An
 ### Links to:
-  - **Github Repo:** https://github.com/byung1211/cpnt200-a3
+  - **Github Repo:** https://github.com/byung1211/cpnt200-a4
   - **Netlify Webpage:** https://friendly-golick-f032d6.netlify.app/
   - **Netlify Webpage for Admin:** https://friendly-golick-f032d6.netlify.app/admin
   
