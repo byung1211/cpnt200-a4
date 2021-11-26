@@ -13,6 +13,7 @@
 ### Code Review
 
 - 2021.11.25
+
   For assignment 5, I have used v-html in Footer and v-text in some index.vue files for each menu. Also, to show you the use of scoped style, I put the style in every vue files and you will see custom.css in the folder /assets/css for global use.
 
 - 2021.11.24
